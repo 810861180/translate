@@ -1,0 +1,118 @@
+/* 手机端样式 */
+@media screen and (max-width: 960px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .main_bg{
+        min-height: calc(100vh - 2.5rem);
+        margin-top: 1.25rem;
+        width: 100vw;
+        background: white;
+    }
+    .main_div{
+        width: 100%;
+        /* padding-top: 1.25rem; */
+    }
+    .subject{
+        width: 100%;
+        /* background: red; */
+        margin-bottom: 1.25rem;
+    }
+    .imports{
+        width: 100%;
+        min-height: 10rem;
+        border: 1px solid #d9d9d9;
+        margin-top: 1.25rem;
+        padding: 20px;
+        display: block;
+        resize:none;
+    }
+    .result{
+        width: 100%;
+        min-height: 8.75rem;
+        margin-top: 1.25rem;
+        padding: 1.25rem;
+        resize:none;
+        border: none;
+        resize:none;
+        outline:none;
+        background: white;
+    }
+    
+
+
+
+    /* 修改的bootstrap的样式 */
+    .display-3{
+        font-size: 3.9rem !important;
+    }
+    .jumbotron{
+        border-radius: 0 !important;
+        margin-bottom: .625rem !important;
+    }
+    .custom-select{
+        width: 35% !important;
+    }
+}
+
+
+
+
+
+/* 电脑端样式 */
+@media screen and (min-width: 960px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .main_bg{
+        height: 100vh;
+        width: 100vw;
+        background: url("https://cn.bing.com/az/hprichbg/rb/RedMapleQue_ZH-CN8685756305_1920x1080.jpg")
+    }
+    .main_div{
+        height: 100%;
+        width: 100%;
+        padding-top: 1.25rem;
+    }
+    .subject{
+        width: 100%;
+        height: 25rem;
+        background: white;
+        padding: 1.25rem;
+    }
+    .imports{
+        width: 49%;
+        height: 280px;
+        border: 1px solid #d9d9d9;
+        margin-top: 1.25rem;
+        padding: 20px;
+        resize:none;
+    }
+    .result{
+        width: 49%;
+        height: 280px;
+        border: none;
+        display: inline-block;
+        margin-left: 10px;
+        padding: 1.25rem;
+        resize:none;
+        outline:none;
+        background: white;
+    }
+
+
+
+    /* 修改的bootstrap的样式 */
+    .jumbotron{
+        border-radius: 0 !important;
+        margin-bottom: .625rem !important;
+    }
+    .custom-select{
+        width: 15% !important;
+    }
+}
+
+
